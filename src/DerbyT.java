@@ -28,7 +28,7 @@ public class DerbyT
 //    		stmt.execute("SET SCHEMA APP");
     		//stmt.execute("");
     		// stmt.executeQuery("SET SCHEMA APP");
-    		   ResultSet results = stmt.executeQuery("SELECT * from APP.PERSON");
+    		   ResultSet results = stmt.executeQuery("SELECT * from APP.PERSON"); // app.person is a table for persons 
        while(results.next())
         {//int id = results.getInt(1);
             String restName = results.getString(2);
