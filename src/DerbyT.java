@@ -14,7 +14,7 @@ public class DerbyT
    private static String dbURLembedded="jdbc:derby:c:/Users/abusham1/MyDB3";//create=true";
     
 
-    private static String tableName = "RESTAURANTS";//"Persons";;
+    private static String tableName = "RESTAURANTS";//"Persons";;   //new comment 
   //  Connection connection= DriverManager.getConnection(
 
     // jdbc Connection
